@@ -4,6 +4,7 @@
   "description": "halaltik-backend",
   "main": "./src/server.js",
   "scripts": {
+    "build":"nodemon ./src/server",
     "start": "set NODE_ENV=production && node ./src/server",
     "dev": "nodemon ./src/server",
     "format": "prettier --write .",
